@@ -24,7 +24,7 @@ Requirements
 ``````
 
 
-```
+
 #Clone repo
 git clone https://github.com/pritishpattanaik/test-ops-poc
 
@@ -38,7 +38,7 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install --upgrade pip
 pip install openai tiktoken sentence-transformers chromadb pandas numpy python-dotenv
 
-```
+
 
 
 #Configuration
@@ -46,8 +46,15 @@ pip install openai tiktoken sentence-transformers chromadb pandas numpy python-d
 Create a .env file in the project root:
 OPENAI_API_KEY=sk-your-api-key
 
+```
 #Run the example script:
-`python3 testcase_generator.py`
+python3 rd_froth_testops.py
+
+# check the cache status
+
+# Run again and see the cache status whether its beign served from local or not ? 
+
+``````
 
 📂 Data & Logs
 	•	Cache: ./data/cache.json
