@@ -1,0 +1,31 @@
+# Core OpenAI and AI Libraries
+openai>=1.12.0
+tiktoken>=0.5.2
+
+# Vector Database and Embeddings
+sentence-transformers>=2.2.2
+chromadb>=0.4.22
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration and Environment
+python-dotenv>=1.0.0
+
+# Optional: Enhanced logging and monitoring
+rich>=13.0.0
+
+# Optional: For web interface (if you want to add Flask/FastAPI later)
+# flask>=2.3.0
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# Optional: For async operations
+# asyncio-throttle>=1.0.2
+# aiofiles>=23.0.0
+
+# Development and Testing (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
