@@ -25,7 +25,7 @@ Requirements
 
 
 # Clone repo
-`git clone https://github.com/<your-username>/testgenai.git
+```git clone https://github.com/<your-username>/testgenai.git
 cd testgenai
 
 # Create virtual environment
@@ -34,7 +34,8 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install --upgrade pip
-pip install -r requirements.txt`
+pip install -r requirements.txt```
+
 
 #Configuration
 
