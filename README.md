@@ -21,11 +21,13 @@ Requirements
 	•	Disk access for ./data (cache, quotas, logs, vector DB)
 	•	OpenAI API key (for generation mode)
  
-`pip install openai tiktoken sentence-transformers chromadb pandas numpy python-dotenv`
+``````
 
 
-# Clone repo
-```git clone https://github.com/<your-username>/testgenai.git
+```
+#Clone repo
+git clone https://github.com/pritishpattanaik/test-ops-poc
+
 cd testgenai
 
 # Create virtual environment
@@ -34,7 +36,9 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install --upgrade pip
-pip install -r requirements.txt```
+pip install openai tiktoken sentence-transformers chromadb pandas numpy python-dotenv
+
+```
 
 
 #Configuration
