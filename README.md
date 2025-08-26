@@ -90,4 +90,3 @@ Yes, extend _call_openai_api() or add new providers with a similar interface.
 
  📜 License
 
-MIT License © 2025 FrothOps
